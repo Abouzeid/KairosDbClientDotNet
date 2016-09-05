@@ -2,7 +2,7 @@
 {
     public class GapsAggregator : RangeAggregator
     {
-        public GapsAggregator(int value, TimeUnit unit) : base("range", value, unit)
+        public GapsAggregator(int value, TimeUnit unit) : base("gaps", value, unit)
         {
             
         }
